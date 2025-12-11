@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sonali Sanjay Sawwasher — Software Engineer & Data Analyst</title>
+  <meta name="description"
+    content="Portfolio of Sonali Sanjay Sawwasher — Software Engineer & Data Analyst. Power BI, Tableau, SQL, Python, Excel.">
+  <link rel="icon" href="assets/favicon.svg" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="light">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">Sonali Sawwasher</a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <a class="btn btn-outline" href="assets/resume.pdf" download>Download Resume</a>
+        <button class="burger" id="burger" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1>Sonali Sanjay Sawwasher</h1>
+        <p class="lead">Software Engineer & Data Analyst — building analytics dashboards and production web apps with
+          SQL, Power BI, Python, and .NET</p>
+        <div class="hero-ctas">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="assets/resume.pdf" download>Download Resume</a>
+        </div>
+
+        <ul class="micro-info">
+          <li><strong>Email:</strong> <a href="mailto:sonalisawwasher76@gmail.com">sonalisawwasher76@gmail.com</a></li>
+          <li><strong>Phone:</strong> +91 91455 52407</li>
+          <li><strong>Location:</strong> Pune, India</li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <div class="card hero-card">
+          <h3>Hello! I analyze data & build apps</h3>
+          <p>Detail-oriented Data Analyst & Aspiring Data Scientist skilled in SQL, Python, Power BI, Tableau, and
+            Excel. 2 years software engineering experience building REST APIs, dashboards, and data pipelines.</p>
+          <div class="skill-badges">
+            <span>Power BI</span><span>Tableau</span><span>SQL</span><span>Python</span><span>.NET</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p><strong>Summary:</strong> Detail-oriented Data Analyst & Aspiring Data Scientist skilled in SQL, Python,
+            Power BI, Tableau, and Excel. Bringing 2 years of software engineering experience with foundations in
+            databases, APIs and analytical problem solving. Currently pursuing Masters in Data Science & Analytics with
+            AI (IT Vedant).</p>
+
+          <h4>Education</h4>
+          <ul class="small-list">
+            <li>MSc Computer Science — S.P. College, Pune (2021–2023)</li>
+            <li>BSc Computer Science — S.P. College, Pune (2018–2021)</li>
+            <li>Masters in Data Science & Analytics with AI — IT Vedant (Pursuing, 2025–Present)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Experience</h4>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h5>Splashgain Technologies Pvt Ltd</h5>
+              <p class="muted">Software Engineer — July 2022 to July 2024, Pune</p>
+              <ul>
+                <li>Built and maintained web apps using ASP.NET, ASP.NET MVC, and AngularJS</li>
+                <li>Implemented RESTful APIs, AJAX and managed MongoDB / MS SQL Server</li>
+                <li>Participated in code reviews and collaborative development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Data Analytics</h4>
+          <p>Power BI, Tableau, Advanced Excel, KPI design, Power Query, EDA</p>
+        </div>
+        <div class="skill-card">
+          <h4>Data Science / Python</h4>
+          <p>Python, Pandas, NumPy, ML basics, GenAI analytics</p>
+        </div>
+        <div class="skill-card">
+          <h4>Databases</h4>
+          <p>MySQL, PostgreSQL, SQL Server, MongoDB, Analytical SQL</p>
+        </div>
+        <div class="skill-card">
+          <h4>Programming & Web</h4>
+          <p>C#, ASP.NET, ASP.NET MVC, JavaScript, Kotlin, AngularJS basics</p>
+        </div>
+        <div class="skill-card">
+          <h4>Tools</h4>
+          <p>GitHub, REST APIs, DAX, Power Query, Power BI modeling</p>
+        </div>
+        <div class="skill-card">
+          <h4>Languages</h4>
+          <p>English, Marathi, Hindi (Fluent); German (Beginner)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="projects-header">
+        <h2>Projects</h2>
+        <div class="filter-row">
+          <label for="filter">Filter:</label>
+          <select id="filter" aria-label="Filter projects">
+            <option value="all">All</option>
+            <option value="powerbi">Power BI</option>
+            <option value="tableau">Tableau</option>
+            <option value="sql">SQL</option>
+            <option value="excel">Excel</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Tourism Analytics -->
+        <article class="project-card" data-tags="powerbi">
+
+          <div class="project-gallery">
+            <img src="assets/pb1.png" alt="Power BI Screenshot 1">
+            <img src="assets/pb2.png" alt="Power BI Screenshot 2">
+            <img src="assets/pb3.png" alt="Power BI Screenshot 3">
+          </div>
+
+          <div class="project-body">
+            <h3>Tourism Analytics Dashboard — Power BI</h3>
+            <p>Star schema, DAX measures, dynamic KPIs, forecasting, drill-through, and interactive slicers for tourism
+              performance analysis. (Aug–Sept 2025)</p>
+            <p class="muted"><strong>Tools:</strong> Power BI, DAX, Data Modeling</p>
+
+            <div class="project-actions">
+              <a class="btn btn-sm" href="https://github.com/SonaliSawwasher76/Tourism-Analytics-Dashboard">View Project</a>
+              <!-- <a class="btn btn-ghost btn-sm" href="https://github.com/SonaliSawwasher76/Tourism-Analytics-Dashboard">Source</a> -->
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Cybersecurity -->
+        <article class="project-card" data-tags="tableau">
+          <img src="assets/Project-Cyber.png" alt="Cybersecurity Threats Analysis screenshot" loading="lazy">
+          <div class="project-body">
+            <h3>Cybersecurity Threats Analysis — Tableau</h3>
+            <p>Geo maps, attack trends, KPIs for financial loss & resolution time, forecasting and filters for
+              vulnerabilities. (Sept–Oct 2025)</p>
+            <p class="muted"><strong>Tools:</strong> Tableau, SQL, Time Series</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="https://github.com/SonaliSawwasher76/Global-Cybersecurity-Threats-Analysis">View Project</a>
+              <!-- <a class="btn btn-ghost btn-sm" href="https://github.com/SonaliSawwasher76/Global-Cybersecurity-Threats-Analysis">Source</a> -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Hospital -->
+        <article class="project-card" data-tags="sql">
+          <img src="assets/project-hospital.png" alt="Hospital Management System screenshot" loading="lazy">
+          <div class="project-body">
+            <h3>Hospital Management System — MySQL Analysis</h3>
+            <p>Normalized relational DB with analytical SQL (joins, views, CASE) to get doctor workload, revenue &
+              patient activity insights. (July–Aug 2025)</p>
+            <p class="muted"><strong>Tools:</strong> MySQL, SQL Analytics, PowerBI</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="https://github.com/SonaliSawwasher76/HospitalManagementSystem">View Project</a>
+              <!-- <a class="btn btn-ghost btn-sm" href="https://github.com/SonaliSawwasher76/HospitalManagementSystem">Source</a> -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Netflix -->
+        <article class="project-card" data-tags="excel">
+          <img src="assets/project-netflix.png" alt="Netflix Content Insights screenshot" loading="lazy">
+          <div class="project-body">
+            <h3>Netflix Content Insights — Advanced Excel</h3>
+            <p>Power Query cleaning + Pivot-based KPIs, slicers and charts to explore genre popularity and country
+              distribution. (June–July 2025)</p>
+            <p class="muted"><strong>Tools:</strong> Excel, Power Query, Pivot Tables</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="https://github.com/SonaliSawwasher76/Netflix-excel-dashboard">View Project</a>
+              <!-- <a class="btn btn-ghost btn-sm" href="https://github.com/SonaliSawwasher76/Netflix-excel-dashboard">Source</a> -->
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container contact-grid">
+      <div class="card contact-card">
+        <h2>Get in touch</h2>
+        <p>If you'd like to collaborate, hire me, or see code samples — send a message.</p>
+
+        <form id="contact-form" action="javascript:void(0)" novalidate>
+          <label>
+            <span>Name</span>
+            <input id="name" type="text" required placeholder="Your name">
+          </label>
+          <label>
+            <span>Email</span>
+            <input id="email" type="email" required placeholder="you@example.com">
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea id="message" rows="5" required placeholder="Tell me about your project"></textarea>
+          </label>
+          <div class="form-row">
+            <button type="submit" class="btn">Send Message</button>
+            <a class="btn btn-ghost" href="mailto:sonalisawwasher76@gmail.com">Or email me</a>
+          </div>
+          <p id="form-msg" class="muted" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside>
+        <h3>Contact Details</h3>
+        <p><strong>Email:</strong> <a href="mailto:sonalisawwasher76@gmail.com">sonalisawwasher76@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91 91455 52407</p>
+        <p><strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/sonali-sawwasher-798523205/" target="_blank">
+            linkedin.com/in/sonali-sawwasher-798523205
+          </a>
+        </p>
+
+        <p><strong>GitHub:</strong>
+          <a href="https://github.com/SonaliSawwasher76/" target="_blank">
+            github.com/SonaliSawwasher76
+          </a>
+        </p>
+
+
+        <h4>Certificates</h4>
+        <ul class="small-list">
+          <li>Tata Group – GenAI Powered Data Analytics (Forage)</li>
+          <li>British Airways – Data Science Job Internship (Forage)</li>
+        </ul>
+
+        <!-- <div class="socials">
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="GitHub">GitHub</a>
+        </div> -->
+      </aside>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sonali Sanjay Sawwasher — Built with ❤️ • <a href="assets/resume.pdf">Resume</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
